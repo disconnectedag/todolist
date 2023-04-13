@@ -1,0 +1,24 @@
+@font-face {
+  font-family: wotfardregular;
+  src: url("wotfard-regular-webfont.ea73456b.eot");
+  src: url("wotfard-regular-webfont.ea73456b.eot#iefix") format("embedded-opentype"), url("wotfard-regular-webfont.ccf232ef.woff2") format("woff2"), url("wotfard-regular-webfont.a09d8067.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: wotfardregular;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+#todo-form {
+  flex-direction: column;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3b8f328d.css.map */

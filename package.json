@@ -1,0 +1,14 @@
+{
+  "name": "to-do-app",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "version": "1.0.0",
+  "author": "Alex Gerhardt",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {}
+}
