@@ -18,6 +18,7 @@ html, body {
 
 #todo-form {
   flex-direction: column;
+  gap: 10px;
   display: flex;
 }
 
