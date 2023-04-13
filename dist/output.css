@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'wotfardregular';
+
+  src: url('wotfard-regular-webfont.eot');
+
+  src: url('wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('wotfard-regular-webfont.woff2') format('woff2'),
+    url('wotfard-regular-webfont.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: 'wotfardregular';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: antiquewhite;
+}
